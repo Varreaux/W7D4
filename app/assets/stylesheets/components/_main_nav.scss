@@ -1,6 +1,12 @@
 @use '../variables' as *;
 
 .main-nav {
+  display: flex;
+  justify-content:center;
+  padding: 10px;
+  
+
+
   
 }
 
@@ -13,7 +19,9 @@
 
   > ul {
     > li {
-      
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
   }
 
@@ -25,7 +33,9 @@
 .right-nav  {
   > ul {
     > li {
-      
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
 
     > li:last-of-type {
